@@ -1,0 +1,11 @@
+@ETLMegaStore_HostAddress = http://localhost:5079
+
+GET {{ETLMegaStore_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{ETLMegaStore_HostAddress}}/todos/1
+Accept: application/json
+
+###
